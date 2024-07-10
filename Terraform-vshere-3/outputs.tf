@@ -1,7 +1,6 @@
-output "vm_id" {
-  value = vsphere_virtual_machine.vm.id
+output "ip" {
+value = "${vsphere_virtual_machine.cloned_virtual_machine.*.default_ip_address}"
 }
-
-output "vm_ip" {
-  value = vsphere_virtual_machine.vm.default_ip_address
+output "vm-moref" {
+   value = "${vsphere_virtual_machine.cloned_virtual_machine.moid}"
 }
