@@ -1,6 +1,6 @@
 # Dự án Tự động hóa Quản trị Máy chủ vCenter
 
-## Nhóm: [Tên nhóm]
+## Nhóm: 3
 
 ## Danh sách thành viên:
 - Phạm Anh Đức
